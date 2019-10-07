@@ -1,0 +1,42 @@
+
+
+
+Observations :
+1. There are no duplicates in this dataset
+
+2. "219517861" host_id is the busiest one with 327 times he attended a guest. His name is "Sonder (NYC)" in neighbourhood_group "Manhattan".
+
+3. we have maximum number of hosts in Manhattan region, and minimum number in Staten Island
+
+4. maximum number of reviews come from room_type : Entire home/apt or Private room
+
+5. There are maximum of room_type("Entire home/apt") nearby region "Manhattan"
+
+6. The columns (id; name; host_id; host_name; neighbourhood; last_review; reviews_per_month; availability_365) seems to be irrelevant. 
+	We updated our new dataset as per our need to implement Machine Learning models.
+
+7
+
+Conclusion : 
+1. For below section column "price" is taken as target column that is giving us poor results of  0.18 accuracy.
+ After this test, we changed our aspect to colum "number_of_reviews" as target.
+
+2. For column "number_of_reviews" taken as target column, it gave a poor accuracy of 0.04
+
+3. The questiuon put on to predict, "Price of room" or "Number of reviews" may be wrong. As it doesn't give good accuracy.
+
+4. The question framed on "room type" gave accuracy of 0.81. This means we might be in right direction, if we want to predict the type of room customer wants to take.
+
+5. Relevant columns found : latitude; longitude; price ; minimum_nights ; number_of_reviews ; calculated_host_listings_count; neighbourhood_group for target column "room_type"
+
+
+
+
+
+
+
+
+
+
+
+
